@@ -1,4 +1,5 @@
 import random
+from HW3_Package import *
 
 # Задание 1.2 из Практики лекции 3
 var_a = 1
@@ -51,9 +52,12 @@ var_ing_add = "stroka" + 'ing'
 print(var_ing_add)
 
 # HW 3.4 в строке Ivan Ivanov поменять слова местами
-str_ivan = "Ivan Ivanov"
-str_ivanov = ' '.join(str_ivan.split(' ')[::-1])
-print(str_ivanov)
+
+str_ivan = swap("Ivan Ivanov")
+str_lena = swap("Lena Ivanova")
+
+print(str_ivan)
+print(str_lena)
 
 # HW 3.5 удалить пробелы вначале и вконце строки
 var_del = " HELLO "
@@ -80,3 +84,4 @@ print(str_output[3:16:3])
 
 # Напишите программу, которая будет выводить уникальное число
 print(random.randrange(1, 100))  # случайное число в промежутке от 1 до 100
+
