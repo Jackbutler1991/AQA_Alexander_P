@@ -37,13 +37,14 @@ def winner(competitors):
         winner_list.append(competitors[item])
     return max(winner_list)
 
+
 competitors = {"Бекиш Александр": 21.07, "Будник Алексей": 20.34, "Гребень Анастасия": 22.12,
-"Давидович Татьяна": 30, "Дешук Дмитрий": 24.01, "Казак Анна": 28.17}
+               "Давидович Татьяна": 30, "Дешук Дмитрий": 24.01, "Казак Анна": 28.17}
 
 print(winner(competitors))
 
-# 5 Вывести уникальное число из массива
 
+# 5 Вывести уникальное число из массива
 
 
 def uniq(numbers_list):
@@ -51,7 +52,7 @@ def uniq(numbers_list):
         if numbers_list.count(item) < 2:
             return item
 
+
 numbers_list = [1, 5, 2, 9, 2, 9, 1]
 uniq(numbers_list)
 print(uniq(numbers_list))
-

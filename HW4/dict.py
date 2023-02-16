@@ -26,7 +26,7 @@ def school_add(name_class, val):
 school_add("11a", 100)
 school_add("12г", 1)
 
-    #3.2 Удалить 1 класс
+    #3.3 Удалить 1 класс
 def school_del(name_class):
      del school[name_class]
      return

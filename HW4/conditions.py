@@ -8,7 +8,9 @@ def pos_plus(var_int):
         print(var_int)
     return
 
+
 pos_plus(-1)
+
 
 # 2 Найти количество положительных чисел в наборе из трех
 def pos_sum(var_list):
@@ -18,7 +20,9 @@ def pos_sum(var_list):
             sum = sum + 1
     print(sum)
 
-pos_sum(var_list = (-1, 3, -4))
+
+pos_sum(var_list=(-1, 3, -4))
+
 
 # 3 Найти количество дней в году по номеру года
 def days_in_year(year):
@@ -27,7 +31,9 @@ def days_in_year(year):
     else:
         print("365")
 
+
 days_in_year(1924)
+
 
 # 4 Найти день недели соответствующий цифре
 def what_is_day(day):
@@ -35,7 +41,9 @@ def what_is_day(day):
     if 0 > day < 8:
         print(week[day])
 
+
 what_is_day(3)
+
 
 # 5 Найти день недели соответствующий цифре
 def what_is_day(day):
@@ -45,7 +53,9 @@ def what_is_day(day):
     else:
         print("Error")
 
+
 what_is_day(2)
+
 
 # 5 Перевести массу в киллограмы
 def in_kg(mesure, mass):
@@ -56,5 +66,6 @@ def in_kg(mesure, mass):
     else:
         print("Error")
     return
+
 
 in_kg(4, 1234)
