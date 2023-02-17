@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d2ccde0-9a8a-4ed6-a0bb-4945b58c8da8" name="Changes" comment="" />
+    <list default="true" id="5d2ccde0-9a8a-4ed6-a0bb-4945b58c8da8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4/conditions.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/conditions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4/dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4/for_loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/for_loops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4/string.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4/var.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/var.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4/while_loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/while_loops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,5 +94,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HW4/dict.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
