@@ -1,5 +1,4 @@
 import random
-from __init__ import swap
 
 # HW 3.1 Привести к целому типу -1.6, 2.99
 int_namber1 = int(-1.6)
@@ -7,16 +6,19 @@ int_namber2 = int(2.99)
 print(int_namber1, int_namber2)
 
 # WM 3.2 Заменить символ # в строке
-var_change = 'www.my_site.com#about'
+var_change: str = 'www.my_site.com#about'
 var_change = var_change.replace("#", "/")
 print(var_change)
 
 # HW 3.3 Добавить 'ing' к слову stroka
-var_ing_add = "stroka"
-var_ing_add = "stroka" + 'ing'
+var_ing_add: str = "stroka"
+var_ing_add: str = "stroka" + 'ing'
 print(var_ing_add)
 
 # HW 3.4 в строке Ivan Ivanov поменять слова местами
+def swap(str_ivan):
+    return ' '.join(str_ivan.split(' ')[::-1])
+
 
 str_ivan = swap("Ivan Ivanov")
 str_lena = swap("Lena Ivanova")
@@ -25,7 +27,7 @@ print(str_ivan)
 print(str_lena)
 
 # HW 3.5 удалить пробелы вначале и вконце строки
-var_del = " HELLO "
+var_del: str = " HELLO "
 var_del = var_del.strip()
 print(var_del)
 

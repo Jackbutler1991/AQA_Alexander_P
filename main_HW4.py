@@ -1,5 +1,34 @@
 from HW4 import *
 
+print ("\nПреобразование типов:")
+# 1 Перевести строку в массив
+print(change_str_to_arrays("Robin Singh"))
+print(change_str_to_arrays("I love arrays they are my favorite"))
+
+# 2 Дан список. Напечатать текст
+var_list = ["Ivan", "Ivanow"]
+var_str_city = "Minsk"
+var_str_country = "Belarus"
+
+print(print_text(var_list, var_str_city, var_str_country))
+
+# 3 Дан список. Сделать из него строку
+var_list_st = ["I", "love", "arrays", "they", "are", "my", "favorite"]
+
+print(change_list_to_str(var_list_st))
+
+# 4 Создать список из 10 элементов, вставить на 3-ю позицию новое значение, удалить 6-тое
+var_list10 = [1, 2, 3, 15, 56, 31, 7, 8, 2344556, 1]
+print(correct_list_ten_elements(var_list10, 2, 1000, 5))
+
+# 5 Есть два словаря. Обьеденить их по ключам
+a = {"a": 1, "b": 2, "c": 3}
+b = {"c": 3, "d": 4, "e": 5}
+ab = {}
+
+print(dict_union(a, b, ab))
+
+
 print ("\nСловари:")
 #1 Создайте словарь связав его с переменной School
 school = {"1а": 23, "1б": 22, "1в": 21, "2a": 20, "2б": 19, "2в": 20,
