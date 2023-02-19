@@ -1,4 +1,1 @@
 .idea/
-.idea
-.HW3/__pycache__/
-.HW4/__pycache__/
