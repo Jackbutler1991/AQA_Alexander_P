@@ -8,8 +8,8 @@ def mult(int_n):
         i += 1
     return a
 
-#print(mult(6))
 
+# print(mult(6))
 
 
 # 2 Поле с двумя сортами цветов S1 и S2
@@ -22,7 +22,7 @@ def sq_flow(flower_s1, flower_s2):
     return i
 
 
-#print(sq_flow(100, 3))
+# print(sq_flow(100, 3))
 
 
 # 3 Дано число N. Найти колличество и сумму его цифр
@@ -36,7 +36,7 @@ def sum_numd(var_int):
     return sum, i
 
 
-#print(sum_numd(1612))
+# print(sum_numd(1612))
 
 
 # 4 Деду M лет, внуку N. Через сколько дед станет вдвое старше внука
@@ -51,5 +51,4 @@ def grand_old(m, n):
         i += 1
     return m, n, i
 
-
-#print(grand_old(60, 10))
+# print(grand_old(60, 10))

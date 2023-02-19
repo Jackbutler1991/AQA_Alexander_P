@@ -1,5 +1,6 @@
 # Условия
-# 1 Дано целое число, если оно положительное, то прибавить к нему 1, или не изменять
+# 1 Дано целое число, если оно положительное,
+# то прибавить к нему 1, или не изменять
 def pos_plus(var_int):
     if var_int > 0:
         var_int = var_int + 1
@@ -9,7 +10,7 @@ def pos_plus(var_int):
     return var_int
 
 
-#pos_plus(-1)
+# pos_plus(-1)
 
 
 # 2 Найти количество положительных чисел в наборе из трех
@@ -21,7 +22,7 @@ def pos_sum(var_list):
     return sum
 
 
-#pos_sum(var_list=(-1, 3, -4))
+# pos_sum(var_list=(-1, 3, -4))
 
 
 # 3 Найти количество дней в году по номеру года
@@ -30,22 +31,30 @@ def days_in_year(year):
     if ((0 == year % 4) and (0 != year % 100)) or (0 == year % 400):
         answer = "Этот год високосный"
     else:
-        answer ="Этот год невисокосный"
+        answer = "Этот год невисокосный"
     return answer
 
-#days_in_year(1924)
+
+# days_in_year(1924)
 
 
 # 4 Найти день недели соответствующий цифре
 def what_is_day(day):
-    week = {1: "Monday", 2: "Tuesday", 3: "Wednsday", 4: "Thursday", 5: "Friday", 6: "Saturday", 7: "Sanday"}
+    week = {1: "Monday",
+            2: "Tuesday",
+            3: "Wednsday",
+            4: "Thursday",
+            5: "Friday",
+            6: "Saturday",
+            7: "Sanday"}
     if 0 < day < 8:
         week = week[day]
     else:
         week = "Error"
     return week
 
-#what_is_day(2)
+
+# what_is_day(2)
 
 
 # 5 Перевести массу в киллограмы
@@ -58,5 +67,4 @@ def in_kg(mesure, mass):
         mass = "Error"
     return mass
 
-
-#in_kg(4, 1234)
+# in_kg(4, 1234)
