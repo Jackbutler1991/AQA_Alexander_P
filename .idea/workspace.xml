@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d2ccde0-9a8a-4ed6-a0bb-4945b58c8da8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3/HW3.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/HW3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3/PR_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/PR_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,16 @@
       <list>
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="NO_COMMIT" />
+      </set>
     </option>
   </component>
   <component name="Git.Settings">
