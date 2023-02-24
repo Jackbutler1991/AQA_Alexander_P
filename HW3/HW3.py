@@ -1,5 +1,6 @@
 import random
 
+
 # HW 3.1 Привести к целому типу -1.6, 2.99
 def float_to_int(var_int: int) -> int:
     return int(var_int)
@@ -29,6 +30,7 @@ def delete_space(var_del: str) -> str:
 school = {"1а": 23, "1б": 22, "1в": 21, "2a": 20, "2,б": 19, "2в": 20,
           "3а": 18, "4б": 24, "5а": 23, "6а": 15, }
 
+
 # HW 3.7 cоздайте список и извлеките из него списка второй элемент
 def make_list(hw_list: list) -> list:
     return hw_list
@@ -43,6 +45,7 @@ def find_str(str_find: str, index: str) -> int:
 def str_out_symb(var_str: str, str_output) -> str:
     return var_str[str_output]
 
+
 def str_out_str(var_str: str, str_output1, str_output2, str_output3):
     return var_str[str_output1:str_output2:str_output3]
 
@@ -50,5 +53,3 @@ def str_out_str(var_str: str, str_output1, str_output2, str_output3):
 # Напишите программу, которая будет выводить уникальное число
 def random_namber(var_at, var_to) -> int:
     return random.randrange(var_at, var_to)
-
-
