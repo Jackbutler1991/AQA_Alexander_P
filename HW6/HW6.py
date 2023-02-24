@@ -46,11 +46,14 @@ sort_file("file_HW6_1.txt", "file2", "file3")
 # элементы на их квадраты.
 
 def square_file(read_file) -> str:
+    sqnum = []
     with open(read_file, "r+") as file:
         for num in file:
             sqnum = ([int(x) ** 2 for x in num.split()])
         file.seek(0)
-        file.write(str(sqnum))
+        for element in sqnum:
+            file.write(str(element))
+            file.write(" ")
 
 
 square_file("file_HW6_3.txt")
