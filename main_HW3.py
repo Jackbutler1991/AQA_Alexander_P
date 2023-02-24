@@ -19,7 +19,7 @@ print(delete_space("    HELLO   "))
 
 # HW 3.7 cоздайте список и извлеките из него списка второй элемент
 hw_list = [1, 123.1, 'Petr', [1, 3.14], 'Minsk']
-print(make_list(hw_list[1]))
+print(make_list(hw_list[2]))
 
 # HW 3.8 Вывести входит ли строка1 в строку2 (пример: employ и employment)
 # если строка не найдена, выводит -> -1

@@ -15,9 +15,8 @@ var_str_country = "Belarus"
 
 
 def print_text(var_list: list, var_str_city: str, var_str_country: str):
-    print_text = f"Привет {' '.join(var_list)}! " \
+    return f"Привет {' '.join(var_list)}! " \
                  f"Добро пожаловать в {var_str_city} {var_str_country}"
-    return print_text
 
 
 # print(f"Привет {' '.join(var_list)}!
@@ -26,8 +25,7 @@ def print_text(var_list: list, var_str_city: str, var_str_country: str):
 # 3 Дан список. Сделать из него строку
 
 def change_list_to_str(var_list):
-    change_list_to_str = " ".join(var_list)
-    return change_list_to_str
+    return " ".join(var_list)
 
 
 # var_list_st = ["I", "love", "arrays", "they", "are", "my", "favorite"]

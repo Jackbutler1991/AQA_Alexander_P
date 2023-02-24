@@ -12,14 +12,16 @@ big_int = var_int * 3.5
 var_float = var_float - 1
 
 # 4 Разделить var_int на var_float, а
-var_int / var_float  # тут я, возможно, не понял условие
-big_int / var_float
+var_result = var_int / var_float  # тут я, возможно, не понял условие
+var_result2 = big_int / var_float
 
-# 5  Изменитm значение переменной var_str на "NoNoYesYesYes".
-var_str = print(var_str * 2 + "Yes" * 3)
+# 5  Изменить значение переменной var_str на "NoNoYesYesYes".
+var_str = var_str * 2 + "Yes" * 3
 
 # 6  Вывести все значения всех переменных
 print(var_int)
 print(big_int)
 print(var_float)
+print(var_result)
+print(var_result2)
 print(var_str)

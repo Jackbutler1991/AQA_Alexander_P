@@ -33,8 +33,6 @@ def school_add(school, name_class, val):
 # 3.3 Удалить 1 класс
 def school_del(school, name_class):
     del school[name_class]
-    return
-
 
 # school_del("4б")
 
