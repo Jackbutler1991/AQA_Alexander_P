@@ -1,2 +1,2 @@
-def swap(str_ivan):
-    return ' '.join(str_ivan.split(' ')[::-1])
+from .HW3 import *
+

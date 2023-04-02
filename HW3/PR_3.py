@@ -32,3 +32,4 @@ sum_old = neigh1 + neigh2 + neigh3
 print(sum_old)
 avr_old = (neigh1 + neigh2 + neigh3) / 3
 print(avr_old)
+
