@@ -23,6 +23,10 @@ def swap(str_ivan):
 
 # HW 3.5 удалить пробелы вначале и вконце строки
 def delete_space(var_del: str) -> str:
+    if type(var_del) not in [str]:
+        raise ValueError("input only str type")
+    if var_del == "":
+        raise ValueError("input only str type")
     return var_del.strip()
 
 
