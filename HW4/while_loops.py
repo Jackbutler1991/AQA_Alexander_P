@@ -2,6 +2,10 @@
 
 # 1 Найти произведение всех чисел от 0 до переменной N
 def mult(int_n):
+    if type(int_n) not in [int]:
+        raise ValueError("N not a integer type")
+    elif int_n < 0:
+        raise ValueError("Error N<0")
     i, a = 1, 1
     while i < (int_n + 1):
         a = i * a
@@ -14,13 +18,17 @@ def mult(int_n):
 
 # 2 Поле с двумя сортами цветов S1 и S2
 def sq_flow(flower_s1, flower_s2):
+    if type(flower_s1 or flower_s2) not in [int]:
+        raise ValueError("N not a integer type")
+    elif (flower_s1 == 0 and flower_s2 == 0):
+        raise ValueError("Incorrectly values")
     i = 1
     while (flower_s2 / 10) <= flower_s1:
         flower_s1 *= 2
         flower_s2 *= 3
         i += 1
     return i
-
+sq_flow(0, 1)
 
 # print(sq_flow(100, 3))
 
